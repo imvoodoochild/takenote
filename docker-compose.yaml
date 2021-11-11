@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  takenote:
+    container_name: takenote
+    image: takenote
+    ports:
+      - '8004:5000'
+    
